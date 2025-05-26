@@ -138,13 +138,13 @@ text-shadow: 0 0 10px #c6c6c6;
 
 .hero {
   position: absolute;
-
-  right:-10px;
-  width: 165px; 
- 
-  bottom: 23px;
-  height: 40px; 
-  background-color: #111; 
+  right: 0;
+  bottom: 0; 
+  width: 150px; 
+  height: 60px;
+background: #111;
+  z-index: 10;
+  pointer-events: none; 
   z-index: 10; 
 }
 .Bot{
