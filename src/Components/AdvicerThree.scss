@@ -52,11 +52,11 @@ text-shadow: 0 0 10px #c6c6c6;
 }
 @media screen and (max-witdh: 768px) {
   .PowerBot-Container{
-    height: 150dvh;
+    height: 600px;
     top: 0;
   }
     main {
-      padding: 1rem;
+      padding: 2rem;
       gap: 1rem;
     }
 
@@ -140,12 +140,17 @@ text-shadow: 0 0 10px #c6c6c6;
   position: absolute;
 
   right:-10px;
-  width: 160px; 
-  border-radius: 30px;
-  bottom: 17px;
-  height: 36px; 
+  width: 165px; 
+ 
+  bottom: 23px;
+  height: 40px; 
   background-color: #111; 
   z-index: 10; 
+}
+.Bot{
+  position: relative;
+  top: -10px;
+  
 }
 .footer{
   position: relative;
