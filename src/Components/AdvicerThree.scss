@@ -39,6 +39,7 @@ text-shadow: 0 0 10px #c6c6c6;
 /* PowerBot container styling */
 .PowerBot-Container {
   position: relative;
+  
   top: 30px;
   left: 0;
   width: 100%;
@@ -60,11 +61,6 @@ text-shadow: 0 0 10px #c6c6c6;
     }
 
   
-}
-.Bot{
-  position: absolute;
-  left: 30px;
- 
 }
 
 /* Advice container styling */
@@ -142,10 +138,11 @@ text-shadow: 0 0 10px #c6c6c6;
 
 .hero {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 156px; 
-  bottom: 20px;
+
+  right:-10px;
+  width: 160px; 
+  border-radius: 30px;
+  bottom: 17px;
   height: 36px; 
   background-color: #111; 
   z-index: 10; 

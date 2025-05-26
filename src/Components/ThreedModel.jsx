@@ -18,7 +18,7 @@ function HandleLoading (){
     <div className="PowerBot-Container" >
     {Loading && <p className='loader'>Loading...</p>}
     <PowerBot className='Bot' scene="https://prod.spline.design/QXcXhgAx6fKYbnQc/scene.splinecode" onLoad={HandleLoading} />
-    <div className="hero"></div>
+    <div className="hero"><small>AdviceAlly</small></div>
   
 
 </div>
