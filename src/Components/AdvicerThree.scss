@@ -40,8 +40,9 @@ text-shadow: 0 0 10px #c6c6c6;
 .PowerBot-Container {
   position: relative;
   top: 30px;
+  left: 0;
   width: 100%;
-  height: 100dvh;         
+  height: 1200px;         
   margin: 0 auto;
   border-radius: 12px;
   overflow: hidden;
@@ -59,6 +60,11 @@ text-shadow: 0 0 10px #c6c6c6;
     }
 
   
+}
+.Bot{
+  position: absolute;
+  left: 30px;
+ 
 }
 
 /* Advice container styling */
