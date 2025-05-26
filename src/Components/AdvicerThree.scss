@@ -43,7 +43,7 @@ text-shadow: 0 0 10px #c6c6c6;
   top: 30px;
   left: 0;
   width: 100%;
-  height: 1200px;
+  height: 80vh;
   margin: 0 auto;
   border-radius: 12px;
   overflow: hidden;
@@ -71,13 +71,14 @@ text-shadow: 0 0 10px #c6c6c6;
 
 @media screen and (max-width: 768px) {
   .PowerBot-Container {
-    height: 90vh;
+    height: 100vh;
     top: 0;
+    border-radius: 0;
   }
 
   .Heading {
-    font-size: 1.5rem;
-    padding: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
     text-align: center;
   }
 }
@@ -93,7 +94,7 @@ text-shadow: 0 0 10px #c6c6c6;
 
 /* Advice text */
 .Advice-Para {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
   min-height: 3rem;
   color: #fff;
@@ -110,8 +111,8 @@ text-shadow: 0 0 10px #c6c6c6;
 /* Advice button */
 .Advice-button {
   margin-top: 10px;
-  padding: 0.75rem 1.8rem;
-  font-size: 1.1rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
   background-color: #000000;
   border: none;
   border-radius: 8px;
